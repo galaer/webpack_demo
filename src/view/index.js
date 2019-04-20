@@ -6,7 +6,11 @@ console.log("122213123")
 console.log("adas")
 console.log("ada3s")
 console.log("123adsa 1")
+import "./index.css"
 
+var element = `<div class="ad"></div>`
+document.body.innerHTML = element
+console.log("element", element)
 if (module.hot) {
   //   module.hot.accept("./index.js", function() {
   console.log("Accepting the updated printMe module!")

@@ -11,7 +11,7 @@ module.exports = merge(common, {
     publicPath: "/"
   },
   plugins: [
-    new CleanWebpackPlugin(), //默认删除webpack输出中的所有文件
+    new CleanWebpackPlugin(), //新版本默认删除webpack输出中的所有文件
     // new CleanWebpackPlugin(["./dist"], {
     //   root: path.resolve(__dirname, "..")
     // }),
