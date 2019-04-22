@@ -7,9 +7,9 @@ const OpenBrowserPlugin = require("open-browser-webpack-plugin")
 module.exports = merge(common, {
   mode: "development",
   output: {
-    filename: "js/[name].js",
+    filename: "js/[name].[hash:8].js",
     path: path.resolve(__dirname, "../dist"),
-    publicPath: "/"
+    publicPath: "./"
   },
   devtool: "inline-source-map",
   // devServer: {

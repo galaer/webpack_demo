@@ -1,5 +1,6 @@
 import a from "./a.js"
 console.log("a-->", a)
+import axios from "axios"
 
 console.log("122213123")
 //有没有被删除
@@ -17,3 +18,5 @@ if (module.hot) {
   // printMe()
   //   })
 }
+console.log("!23")
+console.log("process.env.NODE_ENV", process.env.NODE_ENV)
